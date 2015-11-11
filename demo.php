@@ -177,7 +177,7 @@ if(isset($_SESSION['msg']))
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>A Cool Login System With PHP MySQL &amp jQuery | Tutorialzine demo</title>
+<title>Score Members</title>
     
     <link rel="stylesheet" type="text/css" href="demo.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="login_panel/css/slide.css" media="screen" />
@@ -202,7 +202,7 @@ if(isset($_SESSION['msg']))
 	<div id="panel">
 		<div class="content clearfix">
 			<div class="left">
-				<h1>The Sliding jQuery Panel</h1>
+				<h1>Score Members</h1>
 				<h2>A register/login solution</h2>		
 				<p class="grey">You are free to use this login and registration system in you sites!</p>
 				<h2>A Big Thanks</h2>
@@ -270,18 +270,15 @@ if(isset($_SESSION['msg']))
 				</form>
 			</div>
             
-            <?php
-			
-			else:
-			
-			?>
+            <?php else:?>
             
             <div class="left">
             
             <h1>Members panel</h1>
             
-            <p>You can put member-only data here</p>
-            <a href="registered.php">View a special member page</a>
+            <p>Member-only</p>
+            <a href="registered.php">Member only page</a><br/>
+            <a href="memberinfo.php">Member Info</a>
             <p>- or -</p>
             <a href="?logoff">Log off</a>
             
